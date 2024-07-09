@@ -1,0 +1,597 @@
+/* App.css */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*About Us*/
+.about {
+  background-color: #f5f5f5; 
+}
+
+.image-container {
+  width: 100%;
+  height: 700px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.image-text {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 15%;
+  left: 20%;
+  color: white;
+  font-size: 180px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-family: "Arial", sans-serif;
+  font-style: italic;
+}
+
+.about-section {
+  width: 60%;
+  background-color: #ffffff; 
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.about-section:hover {
+  background-color: hsl(195, 84%, 88%); 
+}
+
+.about-section:nth-child(odd) {
+  margin-left: 5%;
+}
+
+.about-section:nth-child(even) {
+  margin-left: 30%;
+}
+
+.about-section h2 {
+  font-size: 40px;
+  font-style: italic;
+  color: #333;
+}
+
+.about-section h3 {
+  font-size: 30px;
+  font-style: italic;
+  color: #333;
+}
+
+.about-section p {
+  font-size: 25px;
+  font-style: italic;
+  color: #3a3a3a;
+}
+
+
+/* ContactUs */
+
+/* .container {
+	background: rgb(204, 219, 240);
+  height: 100vh;
+  width:100%;
+}
+.contact-form {
+  max-width: 600px;
+  width: 100%;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  
+}
+.form-group {
+  margin-bottom: 10%;
+}
+.form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #cdb1b1;
+  border-radius: 4px;
+} */
+
+
+
+
+
+
+/* Login */
+
+
+.login-wrapper {
+  background-color: black;
+  height: 100vh;
+  overflow: hidden; 
+}
+
+.login-page {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.login-image-container {
+  position: absolute;
+  left: -200px;
+  width: 800px;
+  height: 800px;
+  animation: drive-in 3s forwards;
+}
+
+.login-car-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+@keyframes drive-in {
+  from {
+    left: -200%;
+  }
+  to {
+    left: 15%;
+  }
+}
+
+.login-form-container {
+  width: 400px;
+  margin-right: 100px;
+}
+
+.login-form {
+  background: #9a9494;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.login-form-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-form-group {
+  margin-bottom: 15px;
+}
+
+.login-form-label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.login-form-input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+.login-submit-btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.login-submit-btn:hover {
+  background: #0056b3;
+}
+
+.login-register-link {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.login-register-link a {
+  color: #007bff;
+}
+
+
+
+
+/*messages*/
+
+.messages {
+  margin-top:30px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+}
+
+.messages-container {
+  background-image: url('https://media.istockphoto.com/id/1305035773/photo/neon-lighting-glowing-speech-bubble-on-black-brick-wall.webp?b=1&s=170667a&w=0&k=20&c=ETrLwidRsxIpgjW6bNuHAwEBL2hbkk7VwqoC4vi79N4=');
+  flex: 1; 
+  padding: 20px;
+}
+
+.messages-container h2 {
+  margin-bottom: 20px;
+}
+
+.list-group-item {
+  border-radius: 4px;
+  background-color: #dee7f5;
+  border: 1px solid #ecadad; 
+  margin-bottom: 15px;
+}
+
+
+
+
+/*Compare */
+
+.compare-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.car-details {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  width: 45%;
+  background-color: #f9f9f9;
+}
+
+.car-details img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+/* Background Image and Container */
+.stellar-background {
+  margin-top:30px;
+  background-image: url('https://wallpapercave.com/wp/wp5177838.jpg'); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  height: 120vh;
+  padding: 20px;
+}
+
+/* Form Styling */
+.cosmic-form {
+  background-color: rgba(116, 97, 69, 0.9); /* Sunset color with opacity */
+  border-radius: 10px;
+  padding-left: 20px;
+  width: 500px;
+  margin-left: 20px; /* Align to the left */
+}
+
+.cosmic-form-title {
+  font-size: 24px;
+  color: #090604; /* Sunset orange */
+  margin-bottom: 5px;
+}
+
+.cosmic-form-label {
+  display: block;
+  margin-bottom: 10px;
+  color: #0a0702; /* Sunset yellow-orange */
+}
+
+.cosmic-form-input,
+.cosmic-form-textarea {
+  width: 98%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #191207; /* Sunset border color */
+  border-radius: 5px;
+}
+
+.cosmic-form-radio-group {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+
+.cosmic-form-radio-label {
+  color: #0b0702; /* Lighter sunset color */
+}
+
+.cosmic-form-radio-input {
+  margin-right: 5px;
+}
+
+.cosmic-form-button {
+  background-color: #0e0904; /* Deep sunset color */
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 98%;
+  margin-bottom: 5px;
+}
+
+.cosmic-form-button:hover {
+  background-color: #c86630; /* Darker sunset color on hover */
+}
+
+
+
+.vasu-page-container {
+  margin-top:30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100vh;
+  background: url('https://media.istockphoto.com/id/1688578381/photo/contact-us-telephone-envelope-letter-and-e-mail-symbols-on-wooden-round-in-row-on-table-with.webp?b=1&s=170667a&w=0&k=20&c=FaGQdXfMLV6SgHLLG70p41UkUocD0G7831VeLY1B0WI=') no-repeat center fixed;
+  background-size: cover;
+}
+
+.vasu-form-wrapper {
+  width: 400px;
+  padding: 20px;
+  margin: 50px;
+  background-color: #d7d7d7; /* Cement color */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.vasu-form-title {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.vasu-input-group {
+  margin-bottom: 15px;
+}
+
+.vasu-input-label {
+  margin-bottom: 5px;
+  display: block;
+}
+
+.vasu-input-control {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.vasu-submit-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.vasu-submit-btn:hover {
+  background-color: #0056b3;
+}
+
+
+
+/* Cars */
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px; 
+  padding: 10px;
+}
+
+.card {
+  flex: 0 1 calc(25% - 80px); 
+  box-sizing: border-box;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-body {
+  text-align: center;
+}
+
+
+
+/* Cars Details */
+
+
+.car-details-container {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 12px; 
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.car-image {
+  width: 30%; 
+  height: auto;
+  margin-left:25%;
+  margin-right: 30px;
+  border-radius: 12px; 
+  object-fit: cover;
+}
+
+
+.car-info {
+  flex: 1; 
+  max-width: 700px; 
+}
+
+
+.car-info h2 {
+  margin-bottom: 25px; 
+  font-size: 28px;
+  font-weight: 500; 
+  color: #222;
+}
+
+
+.car-info p {
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #666; 
+}
+
+
+.car-info p strong {
+  color: #222;
+  font-weight: 600; 
+}
+
+.car-details-container{
+box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+} 
+
+.car-details-container:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 1); 
+  cursor: pointer; 
+}
+
+
+@media (max-width: 768px) {
+  .car-details-container {
+    flex-direction: column; 
+    align-items: flex-start; 
+  }
+  .car-image {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
+
+/* Overall background and container setup */
+.gari-background {
+  background-image: url('https://www.hdwallpapers.in/download/rolls_royce_black_badge_ghost_car_mountains_snow_nature_background_4k_5k_hd_cars-HD.jpg'); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100vh;
+  padding: 30px;
+  margin: 0;
+  flex-direction: column;
+}
+
+.gari-container {
+  display: flex;
+  justify-content: flex-start; /* Align items to the start to push the form to the left */
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Form styling */
+.gari-form {
+  background-color: rgba(75, 81, 108, 0.9); /* Sunset color with opacity */
+  border-radius: 10px;
+  padding: 10px;
+  width: 400px;
+  margin-right: 30px; /* Increased margin to create space between form and results */
+}
+
+.gari-label {
+  color: #f0eae3; 
+}
+
+.gari-select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.gari-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Results styling */
+.gari-results {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: calc(100% - 420px); 
+}
+
+.gari-results h2 {
+  text-align: center;
+  color: white;
+}
+
+.gari-results p {
+  color: rgb(7, 7, 7);
+}
+
+.gari-results ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.gari-results li {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.gari-results img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+
+.admin-board{
+  background-image: url('https://img.freepik.com/free-photo/dark-style-sky-nighttime_23-2151103593.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: top;
+  justify-content: center; 
+  height: 90vh;
+  padding: 30px;
+  margin: 0;
+}
+.admin-board h1{
+  color:white;
+}
+
+.cars-display{
+  background-image: url('https://t4.ftcdn.net/jpg/05/71/83/47/360_F_571834789_ujYbUnH190iUokdDhZq7GXeTBRgqYVwa.jpg');
+  background-size: cover;
+  background-position: center;
+  
+  height: 150vh;
+ 
+}

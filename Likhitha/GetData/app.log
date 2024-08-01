@@ -1,0 +1,75 @@
+2024-07-04 13:32:02,177 - INFO - Connection successful
+2024-07-04 13:32:02,177 - WARNING -  * Debugger is active!
+2024-07-04 13:32:02,196 - INFO -  * Debugger PIN: 167-856-895
+2024-07-04 13:32:15,065 - INFO - Received request for quotes with id: 157517, fromdate: 2019-01-01, todate: 2022-12-31
+2024-07-04 13:32:15,065 - INFO - Executing SQL query: SELECT top 3000 h_quote_id, cob_dt, close_px FROM tbl_sec_t_quote_price WHERE h_quote_id = ? AND cob_dt BETWEEN ? AND ? with params: ['157517', '2019-01-01', '2022-12-31']
+2024-07-04 13:32:15,502 - INFO - Returning 1461 records
+2024-07-04 13:32:15,515 - INFO - 127.0.0.1 - - [04/Jul/2024 13:32:15] "GET /get_quotes?id=157517&fromdate=2019-01-01&todate=2022-12-31 HTTP/1.1" 200 -
+2024-07-04 13:36:20,088 - INFO -  * Detected change in 'C:\\Users\\yanda.likhitha\\OneDrive - S&P Global\\Documents\\Likhitha\\GetData\\GetData.py', reloading
+2024-07-04 13:36:22,818 - INFO - Connection successful
+2024-07-04 13:36:22,820 - WARNING -  * Debugger is active!
+2024-07-04 13:36:22,837 - INFO -  * Debugger PIN: 167-856-895
+2024-07-04 13:36:27,666 - INFO - Request received from 127.0.0.1 for quotes with id: 157517, fromdate: 2019-01-01, todate: 2022-12-31
+2024-07-04 13:36:27,666 - INFO - Executing SQL query: SELECT top 3000 h_quote_id, cob_dt, close_px FROM tbl_sec_t_quote_price WHERE h_quote_id = ? AND cob_dt BETWEEN ? AND ? with params: ['157517', '2019-01-01', '2022-12-31'] for client 127.0.0.1
+2024-07-04 13:36:28,120 - INFO - Returning 1461 records to client 127.0.0.1
+2024-07-04 13:36:28,120 - INFO - 127.0.0.1 - - [04/Jul/2024 13:36:28] "GET /get_quotes?id=157517&fromdate=2019-01-01&todate=2022-12-31 HTTP/1.1" 200 -
+2024-07-04 13:37:13,278 - INFO - Request received from 127.0.0.1 for quotes with id: 157517, fromdate: 2019-01-01, todate: 2022-12-31
+2024-07-04 13:37:13,294 - INFO - Executing SQL query: SELECT top 3000 h_quote_id, cob_dt, close_px FROM tbl_sec_t_quote_price WHERE h_quote_id = ? AND cob_dt BETWEEN ? AND ? with params: ['157517', '2019-01-01', '2022-12-31'] for client 127.0.0.1
+2024-07-04 13:37:13,741 - INFO - Returning 1461 records to client 127.0.0.1
+2024-07-04 13:37:13,755 - INFO - 127.0.0.1 - - [04/Jul/2024 13:37:13] "GET /get_quotes?id=157517&fromdate=2019-01-01&todate=2022-12-31 HTTP/1.1" 200 -
+2024-07-04 14:14:16,073 - INFO -  * Detected change in 'C:\\Users\\yanda.likhitha\\OneDrive - S&P Global\\Documents\\Likhitha\\GetData\\GetData.py', reloading
+2024-07-04 14:14:18,873 - INFO - Connection successful
+2024-07-04 14:14:18,887 - WARNING -  * Debugger is active!
+2024-07-04 14:14:18,892 - INFO -  * Debugger PIN: 167-856-895
+2024-07-04 14:14:26,253 - INFO - Request received from 127.0.0.1 for quotes with id: 157517, fromdate: 2019-01-01, todate: 2022-12-31
+2024-07-04 14:14:26,253 - INFO - Executing SQL query: SELECT top 3000 h_quote_id, cob_dt, close_px FROM tbl_sec_t_quote_price WHERE h_quote_id = ? AND cob_dt BETWEEN ? AND ? with params: ['157517', '2019-01-01', '2022-12-31'] for client 127.0.0.1
+2024-07-04 14:14:26,692 - INFO - Returning 1461 records to client 127.0.0.1
+2024-07-04 14:14:26,712 - INFO - 127.0.0.1 - - [04/Jul/2024 14:14:26] "GET /get_quotes?id=157517&fromdate=2019-01-01&todate=2022-12-31 HTTP/1.1" 200 -
+2024-07-04 14:21:13,481 - INFO -  * Detected change in 'C:\\Users\\yanda.likhitha\\OneDrive - S&P Global\\Documents\\Likhitha\\GetData\\GetData.py', reloading
+2024-07-04 14:21:16,285 - INFO - Connection successful
+2024-07-04 14:21:16,286 - WARNING -  * Debugger is active!
+2024-07-04 14:21:16,300 - INFO -  * Debugger PIN: 167-856-895
+2024-07-04 14:21:34,231 - INFO -  * Detected change in 'C:\\Users\\yanda.likhitha\\OneDrive - S&P Global\\Documents\\Likhitha\\GetData\\GetData.py', reloading
+2024-07-04 14:21:36,871 - INFO - Connection successful
+2024-07-04 14:21:36,884 - WARNING -  * Debugger is active!
+2024-07-04 14:21:36,887 - INFO -  * Debugger PIN: 167-856-895
+2024-07-04 14:21:42,145 - INFO - Request received from 127.0.0.1 for quotes with id: 157517, fromdate: 2019-01-01, todate: 2022-12-31
+2024-07-04 14:21:42,145 - INFO - Executing SQL query: SELECT top 3000 h_quote_id, cob_dt, close_px FROM tbl_sec_t_quote_price WHERE h_quote_id = ? AND cob_dt BETWEEN ? AND ? with params: ['157517', '2019-01-01', '2022-12-31'] for client 127.0.0.1
+2024-07-04 14:21:42,596 - INFO - Returning 1461 records to client 127.0.0.1
+2024-07-04 14:21:42,596 - INFO - API call took 0.4507 seconds
+2024-07-04 14:21:42,614 - INFO - 127.0.0.1 - - [04/Jul/2024 14:21:42] "GET /get_quotes?id=157517&fromdate=2019-01-01&todate=2022-12-31 HTTP/1.1" 200 -
+2024-07-04 15:02:43,460 - INFO -  * Detected change in 'C:\\Users\\yanda.likhitha\\OneDrive - S&P Global\\Documents\\Likhitha\\GetData\\GetData.py', reloading
+2024-07-04 15:02:46,742 - INFO - Connection successful
+2024-07-04 15:02:46,754 - WARNING -  * Debugger is active!
+2024-07-04 15:02:46,763 - INFO -  * Debugger PIN: 167-856-895
+2024-07-04 15:02:53,242 - INFO - Request received from 127.0.0.1 for quotes with id: 157517, fromdate: 2019-01-01, todate: 2022-12-31
+2024-07-04 15:02:53,244 - INFO - Executing SQL query: SELECT top 3000 h_quote_id, cob_dt, close_px FROM tbl_sec_t_quote_price WHERE h_quote_id = ? AND cob_dt BETWEEN ? AND ? with params: ['157517', '2019-01-01', '2022-12-31'] for client 127.0.0.1
+2024-07-04 15:02:53,732 - INFO - Returning 1461 records to client 127.0.0.1
+2024-07-04 15:02:53,733 - INFO - API call took 0.4913 seconds
+2024-07-04 15:02:53,752 - INFO - 127.0.0.1 - - [04/Jul/2024 15:02:53] "GET /get_quotes?id=157517&fromdate=2019-01-01&todate=2022-12-31 HTTP/1.1" 200 -
+2024-07-04 15:17:38,606 - INFO -  * Detected change in 'C:\\Users\\yanda.likhitha\\OneDrive - S&P Global\\Documents\\Likhitha\\GetData\\GetData.py', reloading
+2024-07-04 15:17:41,606 - INFO - Connection successful
+2024-07-04 15:17:41,620 - WARNING -  * Debugger is active!
+2024-07-04 15:17:41,627 - INFO -  * Debugger PIN: 167-856-895
+2024-07-04 16:23:52,320 - INFO - Request received from 127.0.0.1 for quotes with id: 157517, fromdate: 2023-01-01, todate: 2023-12-31
+2024-07-04 16:23:52,323 - INFO - Executing SQL query: SELECT top 3000 h_quote_id, cob_dt, close_px FROM tbl_sec_t_quote_price WHERE h_quote_id = ? AND cob_dt BETWEEN ? AND ? with params: ['157517', '2023-01-01', '2023-12-31'] for client 127.0.0.1
+2024-07-04 16:23:52,326 - ERROR - Error occurred for client 127.0.0.1: ('01000', '[01000] [Microsoft][ODBC SQL Server Driver][DBNETLIB]ConnectionWrite (send()). (10053) (SQLExecDirectW); [01000] [Microsoft][ODBC SQL Server Driver][DBNETLIB]General network error. Check your network documentation. (11)')
+2024-07-04 16:23:52,328 - INFO - 127.0.0.1 - - [04/Jul/2024 16:23:52] "[35m[1mGET /get_quotes?id=157517&fromdate=2023-01-01&todate=2023-12-31 HTTP/1.1[0m" 500 -
+2024-07-04 16:24:52,626 - ERROR - Error [404] for client 127.0.0.1: Endpoint - /, error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-07-04 16:24:52,631 - INFO - 127.0.0.1 - - [04/Jul/2024 16:24:52] "GET / HTTP/1.1" 200 -
+2024-07-04 16:24:57,815 - INFO - Request received from 127.0.0.1 for quotes with id: 157517, fromdate: 2023-01-01, todate: 2023-12-31
+2024-07-04 16:24:57,817 - INFO - Executing SQL query: SELECT top 3000 h_quote_id, cob_dt, close_px FROM tbl_sec_t_quote_price WHERE h_quote_id = ? AND cob_dt BETWEEN ? AND ? with params: ['157517', '2023-01-01', '2023-12-31'] for client 127.0.0.1
+2024-07-04 16:24:57,818 - ERROR - Error occurred for client 127.0.0.1: ('08S01', '[08S01] [Microsoft][ODBC SQL Server Driver]Communication link failure (0) (SQLExecDirectW)')
+2024-07-04 16:24:57,820 - INFO - 127.0.0.1 - - [04/Jul/2024 16:24:57] "[35m[1mGET /get_quotes?id=157517&fromdate=2023-01-01&todate=2023-12-31 HTTP/1.1[0m" 500 -
+2024-07-04 16:25:04,010 - INFO - Request received from 127.0.0.1 for quotes with id: 157517, fromdate: 2023-01-01, todate: 2023-12-31
+2024-07-04 16:25:04,012 - INFO - Executing SQL query: SELECT top 3000 h_quote_id, cob_dt, close_px FROM tbl_sec_t_quote_price WHERE h_quote_id = ? AND cob_dt BETWEEN ? AND ? with params: ['157517', '2023-01-01', '2023-12-31'] for client 127.0.0.1
+2024-07-04 16:25:04,014 - ERROR - Error occurred for client 127.0.0.1: ('08S01', '[08S01] [Microsoft][ODBC SQL Server Driver]Communication link failure (0) (SQLExecDirectW)')
+2024-07-04 16:25:04,015 - INFO - 127.0.0.1 - - [04/Jul/2024 16:25:04] "[35m[1mGET /get_quotes?id=157517&fromdate=2023-01-01&todate=2023-12-31 HTTP/1.1[0m" 500 -
+2024-07-04 16:28:38,293 - INFO - Request received from 127.0.0.1 for quotes with id: 157517, fromdate: 2023-01-01, todate: 2023-12-31
+2024-07-04 16:28:38,294 - INFO - Executing SQL query: SELECT top 3000 h_quote_id, cob_dt, close_px FROM tbl_sec_t_quote_price WHERE h_quote_id = ? AND cob_dt BETWEEN ? AND ? with params: ['157517', '2023-01-01', '2023-12-31'] for client 127.0.0.1
+2024-07-04 16:28:38,296 - ERROR - Error occurred for client 127.0.0.1: ('08S01', '[08S01] [Microsoft][ODBC SQL Server Driver]Communication link failure (0) (SQLExecDirectW)')
+2024-07-04 16:28:38,297 - INFO - 127.0.0.1 - - [04/Jul/2024 16:28:38] "[35m[1mGET /get_quotes?id=157517&fromdate=2023-01-01&todate=2023-12-31 HTTP/1.1[0m" 500 -
+2024-07-04 16:50:17,137 - INFO - Request received from 127.0.0.1 for quotes with id: 157517, fromdate: 2023-01-01, todate: 2023-12-31
+2024-07-04 16:50:17,141 - INFO - Executing SQL query: SELECT top 3000 h_quote_id, cob_dt, close_px FROM tbl_sec_t_quote_price WHERE h_quote_id = ? AND cob_dt BETWEEN ? AND ? with params: ['157517', '2023-01-01', '2023-12-31'] for client 127.0.0.1
+2024-07-04 16:50:17,146 - ERROR - Error occurred for client 127.0.0.1: ('08S01', '[08S01] [Microsoft][ODBC SQL Server Driver]Communication link failure (0) (SQLExecDirectW)')
+2024-07-04 16:50:17,149 - INFO - 127.0.0.1 - - [04/Jul/2024 16:50:17] "[35m[1mGET /get_quotes?id=157517&fromdate=2023-01-01&todate=2023-12-31 HTTP/1.1[0m" 500 -
